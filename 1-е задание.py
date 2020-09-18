@@ -11,7 +11,6 @@ for i in index:
     if n[i] != None:
         for m in n[i:]:
             value_list.append(m)
-# я убрал одиночные значения так как в задании была сумма непустого подотрезка
             if len(value_list)!=1:
                 abs_value= sum(value_list)
                 index_slice = [i,j]
